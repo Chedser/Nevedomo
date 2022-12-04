@@ -1,8 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LMLevelPanels : LanguageManager
-{
+public class LMLevelPanels : LanguageManager{
 
     [Header("Win Panel")]
     [SerializeField]
@@ -45,8 +44,7 @@ public class LMLevelPanels : LanguageManager
 
             winTxt.text = "YOU WIN!";
 
-            if (gameManager.isLastLevel)
-            {
+            if (gameManager.isLastLevel){
 
                 nextFightButtonTxt.text = "AVAILABLE IN NEXT UPDATE";
 
@@ -72,27 +70,27 @@ public class LMLevelPanels : LanguageManager
         }
         else{
 
-            winTxt.text = "œŒ¡≈ƒ¿!";
+            winTxt.text = "√è√é√Å√Ö√Ñ√Ä!";
             if (gameManager.isLastLevel){
 
-                nextFightButtonTxt.text = "ƒŒ—“”œÕŒ ¬ Œ¡ÕŒ¬À≈Õ»»";
+                nextFightButtonTxt.text = "√Ñ√é√ë√í√ì√è√ç√é √Ç √é√Å√ç√é√Ç√ã√Ö√ç√à√à";
 
             }
             else{
 
-                nextFightButtonTxt.text = "—À≈ƒ”ﬁŸ»… ¡Œ…";
+                nextFightButtonTxt.text = "√ë√ã√Ö√Ñ√ì√û√ô√à√â √Å√é√â";
 
             }
-            fightAgainButtonTxt.text = "¡»“‹—ﬂ ≈Ÿ≈";
-            exitButtonTxt.text = "¬€’Œƒ";
+            fightAgainButtonTxt.text = "√Å√à√í√ú√ë√ü √Ö√ô√Ö";
+            exitButtonTxt.text = "√Ç√õ√ï√é√Ñ";
 
-            loseTxt.text = "¬€ œ–Œ»√–¿À»";
-            fightAgainLoseButtonTxt.text = "¡»“‹—ﬂ ≈Ÿ≈";
-            exitLoseButtonTxt.text = "¬€’Œƒ";
+            loseTxt.text = "√Ç√õ √è√ê√é√à√É√ê√Ä√ã√à";
+            fightAgainLoseButtonTxt.text = "√Å√à√í√ú√ë√ü √Ö√ô√Ö";
+            exitLoseButtonTxt.text = "√Ç√õ√ï√é√Ñ";
 
-            backdownTxt.text = "—ƒ¿“‹—ﬂ";
-            fightButtonBackdownTxt.text = "¡Œ…!";
-            exitButtonBackdownTxt.text = "¬€’Œƒ";
+            backdownTxt.text = "√ë√Ñ√Ä√í√ú√ë√ü";
+            fightButtonBackdownTxt.text = "√Å√é√â!";
+            exitButtonBackdownTxt.text = "√Ç√õ√ï√é√Ñ";
 
         }
 
